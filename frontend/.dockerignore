@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+npm-error.log
+yarn-error.log
+build
+dist
+.git
+.gitignore
+README.md
+.DS_Store
+.env
+.env.local

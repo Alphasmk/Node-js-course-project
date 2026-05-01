@@ -1,0 +1,1266 @@
+[
+    {
+        "url": "https://pdd.auto-cargo.com/13test/1-7.htm",
+        "question": "Обязаны ли водители исполнять сигналы регулировщика, если они противоречат сигналам светофора?",
+        "image": null,
+        "rule": "35",
+        "answers": [
+            {
+                "text": "Обязаны.",
+                "is_correct": true
+            },
+            {
+                "text": "Не обязаны.",
+                "is_correct": false
+            },
+            {
+                "text": "По своему усмотрению.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/2-7.htm",
+        "question": "Как следует поступить водителю легкового автомобиля в показанной ситуации, если он намерен двигаться прямо?",
+        "image": "/theme-images/ГЛАВА_7_q002_a5960c28.gif",
+        "rule": "36.1",
+        "answers": [
+            {
+                "text": "Дождаться другого сигнала регулировщика.",
+                "is_correct": false
+            },
+            {
+                "text": "Проехать перекресток первым.",
+                "is_correct": true
+            },
+            {
+                "text": "Уступить дорогу трамваю.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/3-7.htm",
+        "question": "Водитель автомобиля намерен двигаться прямо. Как ему следует поступить в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q003_5136e8f8.gif",
+        "rule": "36.1",
+        "answers": [
+            {
+                "text": "Уступить дорогу трамваю.",
+                "is_correct": false
+            },
+            {
+                "text": "Дождаться смены сигнала регулировщика.",
+                "is_correct": false
+            },
+            {
+                "text": "Проехать перекресток первым.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/4-7.htm",
+        "question": "При повороте налево в показанной ситуации водитель легкового автомобиля:",
+        "image": "/theme-images/ГЛАВА_7_q004_1592845b.gif",
+        "rule": "36.1",
+        "answers": [
+            {
+                "text": "Может проехать перекрёсток первым.",
+                "is_correct": false
+            },
+            {
+                "text": "Обязан уступить дорогу трамваю.",
+                "is_correct": false
+            },
+            {
+                "text": "Должен дождаться другого сигнала регулировщика.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/5-6.htm",
+        "question": "В каком направлении Вам можно продолжить движение в показанной ситуации при таком сигнале регулировщика?",
+        "image": "/theme-images/ГЛАВА_7_q005_df6b73e6.gif",
+        "rule": "36.1",
+        "answers": [
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": true
+            },
+            {
+                "text": "Во всех направлениях.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/6-6.htm",
+        "question": "Разрешено ли Вам продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q006_7781b02b.gif",
+        "rule": "36.1",
+        "answers": [
+            {
+                "text": "Запрещено.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено прямо и направо,",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только направо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/7-6.htm",
+        "question": "Разрешено ли Вам продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q007_202f48af.gif",
+        "rule": "36.1",
+        "answers": [
+            {
+                "text": "Разрешено только налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено во всех направлениях.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещено.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/8-6.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q008_e62c5358.gif",
+        "rule": "36.1,63",
+        "answers": [
+            {
+                "text": "Только прямо и направо.",
+                "is_correct": true
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Во всех направлениях.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/9-4.htm",
+        "question": "В показанной ситуации Вы:",
+        "image": "/theme-images/ГЛАВА_7_q009_b03e8e11.gif",
+        "rule": "36.1.1,63",
+        "answers": [
+            {
+                "text": "Обязаны остановиться.",
+                "is_correct": false
+            },
+            {
+                "text": "Можете двигаться только налево или на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Можете двигаться только прямо.",
+                "is_correct": true
+            },
+            {
+                "text": "Можете двигаться прямо, налево или на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Можете двигаться во всех направлениях.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/10-4.htm",
+        "question": "Разрешено ли Вам продолжать движение в показанной ситуации при таком сигнале регулировщика?",
+        "image": "/theme-images/ГЛАВА_7_q010_a6fd5083.gif",
+        "rule": "36.1.2",
+        "answers": [
+            {
+                "text": "Разрешено только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещено.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено только прямо, налево и на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/11-4.htm",
+        "question": "В показанной ситуации водители обоих транспортных средств намерены повернуть налево. При этом водитель легкового автомобиля:",
+        "image": "/theme-images/ГЛАВА_7_q011_a93326f2.gif",
+        "rule": "36.2",
+        "answers": [
+            {
+                "text": "Должен дождаться другого сигнала регулировщика.",
+                "is_correct": false
+            },
+            {
+                "text": "Может проехать перекресток одновременно с трамваем.",
+                "is_correct": true
+            },
+            {
+                "text": "Обязан проехать перекресток поссле трамвая.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/12-4.htm",
+        "question": "В каком направлении Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q012_0765b6e1.gif",
+        "rule": "36.2",
+        "answers": [
+            {
+                "text": "Во всех направлениях.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": true
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/13-4.htm",
+        "question": "При повороте направо в показанной ситуации водитель легкового автомобиля:",
+        "image": "/theme-images/ГЛАВА_7_q013_fe5cfa91.gif",
+        "rule": "36.2",
+        "answers": [
+            {
+                "text": "Может проехать перекресток одновременно с трамваем.",
+                "is_correct": true
+            },
+            {
+                "text": "Должен дождаться другого сигнала регулировщика.",
+                "is_correct": false
+            },
+            {
+                "text": "Обязан проехать перекресток после трамвая.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/14-4.htm",
+        "question": "Как следует поступить водителю легкового автомобиля, если он намерен двигаться прямо в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q014_e7220154.gif",
+        "rule": "36.2",
+        "answers": [
+            {
+                "text": "Уступить дорогу трамваю.",
+                "is_correct": false
+            },
+            {
+                "text": "Проехать перекресток первым.",
+                "is_correct": false
+            },
+            {
+                "text": "Дождаться другого сигнала регулировщика.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/15-4.htm",
+        "question": "Разрешено ли Вам продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q015_9384eddd.gif",
+        "rule": "36.2",
+        "answers": [
+            {
+                "text": "Разрешено только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещено во всех направлениях.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено только прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено во всех направлениях.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/16-4.htm",
+        "question": "Разрешено ли Вам продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q016_f1ad0c22.gif",
+        "rule": "36.2",
+        "answers": [
+            {
+                "text": "Разрешено прямо и направо,",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещено.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только прямо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/17-4.htm",
+        "question": "Разрешено ли Вам продолжить движение в показанной ситуации (регулировщик обращен к Вам грудью с вытянутой вперед правой рукой)?",
+        "image": "/theme-images/ГЛАВА_7_q017_d1a6e197.gif",
+        "rule": "36.2,63",
+        "answers": [
+            {
+                "text": "Разрешено только прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Движение запрещено во всех направлениях.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/18-4.htm",
+        "question": "Как следует поступить водителю легкового автомобиля, если он намерен двигаться прямо?",
+        "image": "/theme-images/ГЛАВА_7_q018_73fa4f43.gif",
+        "rule": "36.2.1",
+        "answers": [
+            {
+                "text": "Проехать перекресток первым.",
+                "is_correct": true
+            },
+            {
+                "text": "Уступить дорогу трамваю.",
+                "is_correct": false
+            },
+            {
+                "text": "Дождаться другого сигнала регулировщика.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/19-4.htm",
+        "question": "В показанной ситуации Вы:",
+        "image": "/theme-images/ГЛАВА_7_q019_e5c1c061.gif",
+        "rule": "36.2.1,63",
+        "answers": [
+            {
+                "text": "Можете двигаться во всех направлениях.",
+                "is_correct": false
+            },
+            {
+                "text": "Можете двигаться только налево или на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Обязаны остановиться.",
+                "is_correct": false
+            },
+            {
+                "text": "Можете двигаться только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Можете двигаться прямо, налево или на разворот.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/20-4.htm",
+        "question": "Как следует поступить водителю легкового автомобиля, если он намерен двигаться прямо, при таком сигнале регулировщика?",
+        "image": "/theme-images/ГЛАВА_7_q020_16a1c074.gif",
+        "rule": "36.2.2",
+        "answers": [
+            {
+                "text": "Дождаться другого сигнала регулировщика.",
+                "is_correct": true
+            },
+            {
+                "text": "Проехать перекресток первым.",
+                "is_correct": false
+            },
+            {
+                "text": "Уступить дорогу трамваю.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/21-4.htm",
+        "question": "Разрешено ли Вам продолжить движение в показанной ситуации при таком сигнале регулировщика?",
+        "image": "/theme-images/ГЛАВА_7_q021_1b0f1400.gif",
+        "rule": "36.2.3",
+        "answers": [
+            {
+                "text": "Запрещено.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только прямо, налево и на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/22-4.htm",
+        "question": "Разрешено ли Вам продолжать движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q022_cdf70a33.gif",
+        "rule": "36.3",
+        "answers": [
+            {
+                "text": "Запрещено.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только прямо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/23-4.htm",
+        "question": "Какие сигналы светофора в зависимости от назначения не существуют, согласно Правилам дорожного движения?",
+        "image": null,
+        "rule": "38",
+        "answers": [
+            {
+                "text": "В виде силуэта трамвая.",
+                "is_correct": false
+            },
+            {
+                "text": "В виде стрелок.",
+                "is_correct": false
+            },
+            {
+                "text": "В виде силуэта пешехода.",
+                "is_correct": false
+            },
+            {
+                "text": "Х-образные.",
+                "is_correct": false
+            },
+            {
+                "text": "Т-образные.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/24-4.htm",
+        "question": "В каком случае может применяться показанный на рисунке светофор?",
+        "image": "/theme-images/ГЛАВА_7_q024_ba5c04ab.gif",
+        "rule": "38",
+        "answers": [
+            {
+                "text": "Для регулирования движения транспортных средств по всей ширине проезжей части дороги.",
+                "is_correct": false
+            },
+            {
+                "text": "Для регулирования движения на железнодорожных переездах.",
+                "is_correct": false
+            },
+            {
+                "text": "Для регулирования движения трамваев, а также других маршрутных транспортных средств, движущихся по выделенной для них полосе.",
+                "is_correct": false
+            },
+            {
+                "text": "Для регулирования движения транспортных средств по полосам проезжей части дороги, по которым направление движения может изменяться на противоположное.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/25-4.htm",
+        "question": "Как следует поступить водителю легкового автомобиля, если он намерен повернуть направо?",
+        "image": "/theme-images/ГЛАВА_7_q025_3acd168b.gif",
+        "rule": "40",
+        "answers": [
+            {
+                "text": "Может проехать перекресток первым.",
+                "is_correct": true
+            },
+            {
+                "text": "Должен дождаться смены сигнала светофора.",
+                "is_correct": false
+            },
+            {
+                "text": "Обязан уступить дорогу трамваю.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/26-4.htm",
+        "question": "О чем из перечисленного информирует Вас стрелка в красном сигнале светофора?",
+        "image": "/theme-images/ГЛАВА_7_q026_bc1c83ff.gif",
+        "rule": "40",
+        "answers": [
+            {
+                "text": "Поворот направо разрешен, но необходимо уступить дорогу пешеходам.",
+                "is_correct": false
+            },
+            {
+                "text": "На этом перекрестке всегда запрещен поворот направо.",
+                "is_correct": false
+            },
+            {
+                "text": "При включении зеленого сигнала светофора движение будет разрешено только направо.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/27-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q027_f311bda1.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": true
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/28-3.htm",
+        "question": "В каком направлении Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q028_9b1594f0.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/29-3.htm",
+        "question": "В каком направлении Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q029_f175ac0f.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": true
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/30-3.htm",
+        "question": "Вам разрешено движение:",
+        "image": "/theme-images/ГЛАВА_7_q030_eb04999a.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Во всех направлениях.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/31-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q031_a3b5c0ad.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Прямо и направо.",
+                "is_correct": true
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/32-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q032_ce5805cc.gif",
+        "rule": "40",
+        "answers": [
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": true
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/33-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q033_1a51b794.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Во всех направлениях.",
+                "is_correct": true
+            },
+            {
+                "text": "Только прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только налево и на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/34-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q034_50642a0f.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Налево, направо и на разворот.",
+                "is_correct": true
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/35-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q035_c0f99d35.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Во всех направлениях.",
+                "is_correct": true
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/36-3.htm",
+        "question": "В каком направлении Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q036_73fe0480.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Только прямо.",
+                "is_correct": true
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/37-3.htm",
+        "question": "В каких направлениях разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q037_72c65ac8.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/38-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q038_13e10ba6.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/39-3.htm",
+        "question": "В каких направлениях Вам разрешено продолжить движение в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q039_9848eb9a.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Налево и на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Только направо.",
+                "is_correct": false
+            },
+            {
+                "text": "Прямо и направо.",
+                "is_correct": true
+            },
+            {
+                "text": "Прямо, налево и на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/40-3.htm",
+        "question": "Как следует поступить водителю легкового автомобиля в показанной ситуации, если он намерен двигаться прямо?",
+        "image": "/theme-images/ГЛАВА_7_q040_8dbaca9b.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Проехать перекресток первым.",
+                "is_correct": true
+            },
+            {
+                "text": "Дождаться смены сигнала светофора.",
+                "is_correct": false
+            },
+            {
+                "text": "Уступить дорогу трамваю.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/41-3.htm",
+        "question": "При повороте направо в показанной ситуации водитель легкового автомобиля:",
+        "image": "/theme-images/ГЛАВА_7_q041_cb5bc264.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Обязан уступить дорогу трамваю.",
+                "is_correct": false
+            },
+            {
+                "text": "Должен дождаться смены сигнала светофора.",
+                "is_correct": true
+            },
+            {
+                "text": "Может проехать перекресток первым.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/42-3.htm",
+        "question": "В показанной ситуации водитель красного автомобиля:",
+        "image": "/theme-images/ГЛАВА_7_q042_49e5c304.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Обязан остоновиться.",
+                "is_correct": false
+            },
+            {
+                "text": "Может двигаться только налево или на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Может двигаться только прямо.",
+                "is_correct": false
+            },
+            {
+                "text": "Может двигаться прямо, налево или на разворот.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/43-3.htm",
+        "question": "Как следует поступить водителю легкового автомобиля в показанной ситуации, если он намерен двигаться прямо?",
+        "image": "/theme-images/ГЛАВА_7_q043_c9526ddb.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Проехать перекресток первым.",
+                "is_correct": false
+            },
+            {
+                "text": "Дождаться смены сигнала светофора.",
+                "is_correct": true
+            },
+            {
+                "text": "Уступить дорогу трамваю.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/44-3.htm",
+        "question": "Разрешено ли в показанной ситуации водителю красного автомобиля продолжить движение?",
+        "image": "/theme-images/ГЛАВА_7_q044_0d24045f.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Разрешено прямо, налево или на разворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещено.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только прямо.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено только налево или на разворот.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/45-3.htm",
+        "question": "Водитель зеленого автомобиля намерен повернуть налево. Как ему следует поступить в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q045_81ba132d.gif",
+        "rule": "40,41",
+        "answers": [
+            {
+                "text": "Уступить дорогу только трамваю.",
+                "is_correct": false
+            },
+            {
+                "text": "Проехать перекрёсток первым.",
+                "is_correct": true
+            },
+            {
+                "text": "Уступить дорогу обоим транспортным средствам.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/46-3.htm",
+        "question": "Как следует поступить пешеходу, не успевшему перейти дорогу после включения красного сигнала пешеходного светофора, в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q046_1fca360b.gif",
+        "rule": "42.2",
+        "answers": [
+            {
+                "text": "Остановиться на линии, разделяющей транспортные потоки попутного направления.",
+                "is_correct": false
+            },
+            {
+                "text": "Остановиться на линии, разделяющей транспортные потоки противоположных направлений.",
+                "is_correct": false
+            },
+            {
+                "text": "Завершить переход проезжей части дороги.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/47-2.htm",
+        "question": "Как следует поступить пешеходу, не успевшему перейти дорогу после включения красного сигнала пешеходного светофора, в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_7_q047_4493c8ef.gif",
+        "rule": "42.3",
+        "answers": [
+            {
+                "text": "Завершить переход проезжей части дороги.",
+                "is_correct": false
+            },
+            {
+                "text": "Остановиться на линии, разделяющей транспортные потоки попутного направления.",
+                "is_correct": false
+            },
+            {
+                "text": "Остановиться на участке разделительной полосы, через которую проходит пешеходный переход.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/48-2.htm",
+        "question": "Показанный на рисунке светофор применяется:",
+        "image": "/theme-images/ГЛАВА_7_q048_5ca413b6.gif",
+        "rule": "42.6",
+        "answers": [
+            {
+                "text": "Для информирования пешеходов о том, что они обязаны уступить дорогу транспортным средствам, выполняющим поворот.",
+                "is_correct": false
+            },
+            {
+                "text": "Для информирования пешеходов о том, что в период разрешенного для них движения по пешеходному переходу через переход могут двигаться транспортные средства, выполняющие на перекрестке поворот.",
+                "is_correct": true
+            },
+            {
+                "text": "Для информирования пешеходов о том, что транспортные средства, выполняющие на перекрестке поворот, пользуются преимуществом в движении.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/49-2.htm",
+        "question": "О чем информирует водителей желтый сигнал (в виде стрелы) показанного на рисунке светофора?",
+        "image": "/theme-images/ГЛАВА_7_q049_b6b96e7e.gif",
+        "rule": "44",
+        "answers": [
+            {
+                "text": "О разрешенном направлении движения на ближайшем перекрестке.",
+                "is_correct": false
+            },
+            {
+                "text": "О запрещении движения по всей ширине проезжей части дороги.",
+                "is_correct": false
+            },
+            {
+                "text": "О предстоящей смене сигнала и необходимости перестроения на полосу движения справа.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/50-2.htm",
+        "question": "Нарушают ли водители красного и синего легковых автомобилей Правила дорожного движения в показанной ситуации (реверсивный светофор включен)?",
+        "image": "/theme-images/ГЛАВА_7_q050_c4e719fd.gif",
+        "rule": "44,прил.3",
+        "answers": [
+            {
+                "text": "Нарушает водитель синего легкового автомобиля",
+                "is_correct": false
+            },
+            {
+                "text": "Нарушает водитель красного легкового автомобиля.",
+                "is_correct": false
+            },
+            {
+                "text": "Оба не нарушают.",
+                "is_correct": true
+            },
+            {
+                "text": "Оба нарушают.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/51-2.htm",
+        "question": "Нарушают ли водители красного и синего легковых автомобилей Правила дорожного движения в показанной ситуации (реверсивный светофор выключен?",
+        "image": "/theme-images/ГЛАВА_7_q051_f3332e65.gif",
+        "rule": "44,прил.3",
+        "answers": [
+            {
+                "text": "Нарушает водитель красного легкового автомобиля.",
+                "is_correct": false
+            },
+            {
+                "text": "Оба не нарушают.",
+                "is_correct": false
+            },
+            {
+                "text": "Нарушает водитель синего легкового автомобиля.",
+                "is_correct": true
+            },
+            {
+                "text": "Оба нарушают.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/52-2.htm",
+        "question": "Какие светофоры из показанных на рисунке могут применяться для регулирования движения через железнодорожный переезд?",
+        "image": "/theme-images/ГЛАВА_7_q052_4f96b729.gif",
+        "rule": "46",
+        "answers": [
+            {
+                "text": "Только А.",
+                "is_correct": false
+            },
+            {
+                "text": "Б и Д.",
+                "is_correct": false
+            },
+            {
+                "text": "А и Г.",
+                "is_correct": false
+            },
+            {
+                "text": "Только В.",
+                "is_correct": false
+            },
+            {
+                "text": "А и В.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/53-2.htm",
+        "question": "Что означает мигающий бело-лунный сигнал светофора, установленного перед Железнодорожным переездом?",
+        "image": null,
+        "rule": "46.2",
+        "answers": [
+            {
+                "text": "Движение через переезд запрещено.",
+                "is_correct": false
+            },
+            {
+                "text": "Сигнализация исправна, движение не запрещено.",
+                "is_correct": true
+            },
+            {
+                "text": "Сигнализация неисправна, движение не запрещено.",
+                "is_correct": false
+            },
+            {
+                "text": "Сигнализация исправна, скоро будет включен разрешающий сигнал.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/54-2.htm",
+        "question": "Если при включении желтого сигнала светофора водитель не может остановиться, не прибегая к экстренному торможению в местах, определенных Правилами, то ему разрешается:",
+        "image": null,
+        "rule": "50.1",
+        "answers": [
+            {
+                "text": "Продолжить движение.",
+                "is_correct": true
+            },
+            {
+                "text": "Остановиться в любом месте.",
+                "is_correct": false
+            }
+        ]
+    }
+]

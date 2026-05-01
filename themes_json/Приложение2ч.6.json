@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://pdd.auto-cargo.com/13test/1-35.htm",
+        "question": "Чтобы заправить бак Вашего автомобиля бензином в показанной обстановке, следует:",
+        "image": "/theme-images/Приложение2ч_6_q001_57fe389a.gif",
+        "rule": "прил.2 пар.6",
+        "answers": [
+            {
+                "text": "Поискать другую автозаправочную станцию.",
+                "is_correct": true
+            },
+            {
+                "text": "Проехать вперед до указанной автозаправочной станции.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/2-35.htm",
+        "question": "Чтобы заправить Ваш автомобиль сжиженным газом в показанной обстановке, следует:",
+        "image": "/theme-images/Приложение2ч_6_q002_7b0c01f7.gif",
+        "rule": "прил.2 пар.6",
+        "answers": [
+            {
+                "text": "Поискать другую автозаправочную станцию.",
+                "is_correct": false
+            },
+            {
+                "text": "Проехать вперед до указанной автозаправочной станции.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/3-35.htm",
+        "question": "Какой из показанных дорожных знаков информирует водителя о расположении кемпинга?",
+        "image": "/theme-images/Приложение2ч_6_q003_a7a43331.gif",
+        "rule": "прил.2 пар.6",
+        "answers": [
+            {
+                "text": "Знак 1.",
+                "is_correct": false
+            },
+            {
+                "text": "Знак 5.",
+                "is_correct": false
+            },
+            {
+                "text": "Знак 4.",
+                "is_correct": true
+            },
+            {
+                "text": "Знак 2.",
+                "is_correct": false
+            },
+            {
+                "text": "Знак 3.",
+                "is_correct": false
+            }
+        ]
+    }
+]

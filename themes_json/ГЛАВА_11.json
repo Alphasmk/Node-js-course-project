@@ -1,0 +1,1358 @@
+[
+    {
+        "url": "https://pdd.auto-cargo.com/13test/1-12.htm",
+        "question": "Грузовой автомобиль на пересекаемой дороге не снижает скорость. Как Вам следует поступить в таком случае согласно Правилам, если Вы намеревались повернуть направо?",
+        "image": "/theme-images/ГЛАВА_11_q001_49f4c529.gif",
+        "rule": "87.2",
+        "answers": [
+            {
+                "text": "Увеличить скорость.",
+                "is_correct": false
+            },
+            {
+                "text": "Принять меры к снижению скорости вплоть до остановки транспортного средства.",
+                "is_correct": true
+            },
+            {
+                "text": "Подать звуковой сигнал, требуя уступить дорогу.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/2-12.htm",
+        "question": "Как Вы должны поступить при возникновении препятствия или опасности для движения, которые Вы в состоянии обнаружить при движении транспортного средства?",
+        "image": null,
+        "rule": "87.2",
+        "answers": [
+            {
+                "text": "Немедленно принять меры к снижению скорости движения, вплоть до остановки транспортного средства.",
+                "is_correct": true
+            },
+            {
+                "text": "Включить задние противотуманные фонари.",
+                "is_correct": false
+            },
+            {
+                "text": "Выставить знак аварийной остановки.",
+                "is_correct": false
+            },
+            {
+                "text": "Остановиться и подавать сигнал общей тревоги.",
+                "is_correct": false
+            },
+            {
+                "text": "Безопасно для других участников движения объехать препятствие.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/3-12.htm",
+        "question": "С какой максимальной скоростью разрешается движение по дворовым территориям, прилегающим к жилой застройке?",
+        "image": null,
+        "rule": "2.21,88",
+        "answers": [
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/4-12.htm",
+        "question": "С какой максимальной скоростью разрешается движение в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q004_648a2b00.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/5-11.htm",
+        "question": "С какой максимальной скоростью разрешается буксировка на жесткой сцепке в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q005_24d0aafc.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "20 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/6-11.htm",
+        "question": "С какой максммальной скоростью разрешается движение легковому автомобилю с прицепом в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q006_c16b6287.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "20 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/7-11.htm",
+        "question": "С какой максимальной скоростью разрешается движение легковому автомобилю в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q007_aa0a1478.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/8-11.htm",
+        "question": "Нарушают ли Правила водители, двигаясь на показанных участках дорог со скоростью 60 км/ч?",
+        "image": "/theme-images/ГЛАВА_11_q008_8ddaaecb.gif",
+        "rule": "88,прил.2 пар.3",
+        "answers": [
+            {
+                "text": "Нарушает водитель грузового автомобиля.",
+                "is_correct": true
+            },
+            {
+                "text": "Нарушает водитель легкового автомобиля.",
+                "is_correct": false
+            },
+            {
+                "text": "Не нарушают оба водителя.",
+                "is_correct": false
+            },
+            {
+                "text": "Нарушают оба водителя.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/9-9.htm",
+        "question": "Нарушают ли Правила водители, осуществляя буксировку в показанной ситуации со скоростью 60 км/ч?",
+        "image": "/theme-images/ГЛАВА_11_q009_8c598530.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "Не нарушают.",
+                "is_correct": false
+            },
+            {
+                "text": "Нарушают.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/10-9.htm",
+        "question": "С какой максимальной скоростью разрешается буксировка в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q010_3073dbb5.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/11-9.htm",
+        "question": "С какой максимальной скоростью разрешается движение автомобилю в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q011_2baf5667.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "60 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/12-9.htm",
+        "question": "С какой максимальной скоростью разрешено движение водителю легкового автомобиля по дороге, обозначенной показанным дорожным знаком?",
+        "image": "/theme-images/ГЛАВА_11_q012_e02e6eb0.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "40 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/13-9.htm",
+        "question": "С какой максимальной скоростью разрешается движение легковому автомобилю с прицепом в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q013_90f0702a.gif",
+        "rule": "88",
+        "answers": [
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/14-9.htm",
+        "question": "С какой максимальной скоростью разрешено движение транспортным средствам, буксирующим механическое транспортное средство в населенных пунктах?",
+        "image": null,
+        "rule": "88",
+        "answers": [
+            {
+                "text": "50 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "80 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/15-9.htm",
+        "question": "С какой максимальной скоростью разрешено движение легковому автомобилю при буксировке прицепа в населенном пункте?",
+        "image": null,
+        "rule": "88",
+        "answers": [
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "40 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/16-9.htm",
+        "question": "Каким транспортным средствам из нижеперечисленных разрешена максимальная скорость движения 110 км/ч на автомагистрали?",
+        "image": null,
+        "rule": "89",
+        "answers": [
+            {
+                "text": "Грузовым автомобилям с технически допустимой общей массой более 3,5 тонны, участвующим в международном дорожном движении.",
+                "is_correct": false
+            },
+            {
+                "text": "Грузовым автомобилям с технически допустимой общей массой не более 3,5 тонны.",
+                "is_correct": true
+            },
+            {
+                "text": "Междугородным автобусам.",
+                "is_correct": false
+            },
+            {
+                "text": "Легковым автомобилям при буксировке прицепа.",
+                "is_correct": false
+            },
+            {
+                "text": "Всем вышеперечисленным транспортным средствам.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/17-9.htm",
+        "question": "С какой максимальной скоростью разрешается движение по дороге, обозначенной таким знаком, легковому автомобилю, если его максимальная скорость, определенная технической характеристикой составляет 165 км/час?",
+        "image": "/theme-images/ГЛАВА_11_q017_0982feca.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "120 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "165 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "110 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "150 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/18-9.htm",
+        "question": "С какой максимальной скоростью разрешается движение в показанной ситуации, если технически допустимая общая масса грузового автомобиля не превышает 3,5 тонны?",
+        "image": "/theme-images/ГЛАВА_11_q018_7d04164a.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/19-9.htm",
+        "question": "С какой максимальной скоростью разрешается движение легковому автомобилю в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q019_18c210b3.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/20-9.htm",
+        "question": "С какой максимальной скоростью разрешается движение водителю легкового автомобиля в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q020_a957ebf4.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/21-9.htm",
+        "question": "Водитель какого из автомобилей не нарушает Правила, двигаясь со скоростью 100 км/ч в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q021_bdbdc6bb.gif",
+        "rule": "89.1,89.3",
+        "answers": [
+            {
+                "text": "Водитель легкового автомобиля с прицепом.",
+                "is_correct": false
+            },
+            {
+                "text": "Водитель грузового автомобиля с технически допустимой общей массой 3 тонны.",
+                "is_correct": true
+            },
+            {
+                "text": "Водители обоих транспортных средств не нарушают.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/22-9.htm",
+        "question": "С какой максимальной скоростью разрешается движение водителю легкового автомобиля при буксировке прицепа на участках дорог, обозначенных показанным дорожным знаком?",
+        "image": "/theme-images/ГЛАВА_11_q022_96868ee6.gif",
+        "rule": "89.3,прил.2 пар.5",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "80 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/23-8.htm",
+        "question": "С какой максимальной скоростью разрешено осуществлять буксировку прицепа в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q023_702f6e48.gif",
+        "rule": "89.3",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "100 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/24-8.htm",
+        "question": "Нарушают ли Правила водители автомобилей, двигаясь со скоростью 80 км/ч в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q024_524ab5da.gif",
+        "rule": "89.1,89.4",
+        "answers": [
+            {
+                "text": "Не нарушает только водитель грузового автомобиля с технически допустимой общей массой 3 тонны.",
+                "is_correct": false
+            },
+            {
+                "text": "Не нарушает только водитель легкового автомобиля с прицепом.",
+                "is_correct": false
+            },
+            {
+                "text": "Водители обоих транспортных средств не нарушают.",
+                "is_correct": true
+            },
+            {
+                "text": "Водители обоих транспортных средств нарушают.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/25-8.htm",
+        "question": "Разрешается ли транспортным средствам движение со скоростью более 90 км/ч в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q025_ce9d41f1.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "Запрещается и легковому, и грузовому автомобилю с технически допустимой общей массой не более 3,5 тонны.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешается только грузовому автомобилю с технически допустимой общей массой не более 3,5 тонны.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешается только легковому автомобилю.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешается и легковому, и грузовому автомобилю с технически допустимой общей массой не более 3,5 тонны.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/26-8.htm",
+        "question": "С какой максимальной скоростью разрешается движение по дороге, обозначенной таким знаком, легковому автомобилю, если его максимальная скорость, определенная технической характеристикой составляет 165 км/час?",
+        "image": "/theme-images/ГЛАВА_11_q026_2abb13fa.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "110 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "165 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "120 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "150 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/27-7.htm",
+        "question": "С какой максимальной скоростью разрешается движение грузовому автомобилю с технически допустимой общей массой не более 3,5 тонны на дороге, обозначенной показанным дорожным знаком?",
+        "image": "/theme-images/ГЛАВА_11_q027_cc8acbbb.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "110 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/28-7.htm",
+        "question": "Каким транспортным средствам из нижеперечисленных разрешена максимальная скорость движения 110 км/ч на дорогах, обозначенных показанным дорожным знаком?",
+        "image": "/theme-images/ГЛАВА_11_q028_daca68f2.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "Междугородным автобусам.",
+                "is_correct": false
+            },
+            {
+                "text": "Всем вышеперечисленным транспортным средствам.",
+                "is_correct": false
+            },
+            {
+                "text": "Грузовым автомобилям, с технически допустимой общей массой более 3,5 тонны, участвующим в международном дорожном движении.",
+                "is_correct": false
+            },
+            {
+                "text": "Грузовым автомобилям, с технически допустимой общей массой не более 3,5 тонны.",
+                "is_correct": true
+            },
+            {
+                "text": "Легковым автомобилям при буксировке прицепа.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/29-7.htm",
+        "question": "С какой максимальной скоростью разрешено движение легковым автомобилям, управляемым водителями с водительским стажем более двух лет на автомагистралях?",
+        "image": null,
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "110 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/30-7.htm",
+        "question": "С какой максимальной скоростью разрешено движение грузовым автомобилям с технически допустимой общей массой не более 3,5 тонны на автомагистрали?",
+        "image": null,
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "110 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "120 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/31-7.htm",
+        "question": "Каким транспортным средствам из перечисленных разрешается движение на автомагистрали со скоростью 90 км/ч?",
+        "image": null,
+        "rule": "89",
+        "answers": [
+            {
+                "text": "Легковым автомобилям, осуществляющим буксировку прицепа.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешается всем перечисленным.",
+                "is_correct": true
+            },
+            {
+                "text": "Легковым автомобилям.",
+                "is_correct": false
+            },
+            {
+                "text": "Грузовым автомобилям с технически допустимой общей массой не более 3,5 тонны.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/32-7.htm",
+        "question": "Каким транспортным средствам из перечисленных разрешается движение на автомагистрали с максимальной скоростью 90 км/ч?",
+        "image": null,
+        "rule": "89",
+        "answers": [
+            {
+                "text": "Грузовым автомобилям с технически допустимой общей массой не более 3,5 тонны.",
+                "is_correct": false
+            },
+            {
+                "text": "Легковым автомобилям, осуществляющим буксировку прицепа.",
+                "is_correct": true
+            },
+            {
+                "text": "Всем перечисленным.",
+                "is_correct": false
+            },
+            {
+                "text": "Легковым автомобилям.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/33-7.htm",
+        "question": "С какой максимальной скоростью разрешается движение мотоциклисту вне населенного пункта в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q033_6ba74ba4.gif",
+        "rule": "89.2",
+        "answers": [
+            {
+                "text": "110 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/34-7.htm",
+        "question": "С какой максимальной скоростью разрешается движение мотоциклисту в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q034_f8972801.gif",
+        "rule": "89.2",
+        "answers": [
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "110 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/35-7.htm",
+        "question": "Водитель какого из автомобилей не нарушает Правила, двигаясь со скоростью 80 км/ч вне населенного пункта в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q035_1f9b14ff.gif",
+        "rule": "89.1,89.3",
+        "answers": [
+            {
+                "text": "Грузового автомобиля с технически допустимой общей массой 3 тонны.",
+                "is_correct": true
+            },
+            {
+                "text": "Легкового автомобиля с прицепом.",
+                "is_correct": false
+            },
+            {
+                "text": "Водители обоих автомобилей не нарушают.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/36-7.htm",
+        "question": "С какой максимальной скоростью разрешается движение легковому автомобилю с прицепом в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q036_c575538e.gif",
+        "rule": "89.3",
+        "answers": [
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/37-7.htm",
+        "question": "С какой максимальной скоростью грузовому автомобилю с технически допустимой общей более 3.5 тонны разрешается буксировка прицела по дороге, обозначенной показанным знаком?",
+        "image": "/theme-images/ГЛАВА_11_q037_9eec80fa.gif",
+        "rule": "89.3",
+        "answers": [
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "110 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/38-7.htm",
+        "question": "Нарушает ли Правила водитель желтого автомобиля при движении вне населенного пункта со скоростью 90 км/час, если знак с табличкой установлен над полосой движения, по которой он движется?",
+        "image": "/theme-images/ГЛАВА_11_q038_96f285c2.gif",
+        "rule": "89.3",
+        "answers": [
+            {
+                "text": "Нарушает.",
+                "is_correct": true
+            },
+            {
+                "text": "Не нарушает.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/39-6.htm",
+        "question": "С какой максимальной скоростью разрешается движение вне населенного пункта легковому автомобилю, управляемому водителем с водительским стажем до 2 лет?",
+        "image": null,
+        "rule": "89.4",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/40-6.htm",
+        "question": "С какой максимальной скоростью разрешается буксировка в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q040_ba1715c9.gif",
+        "rule": "89.6",
+        "answers": [
+            {
+                "text": "50 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/41-5.htm",
+        "question": "С какой максимальной скоростью разрешается буксировка на жесткой сцепке в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q041_263aa60d.gif",
+        "rule": "89.6",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/42-5.htm",
+        "question": "С какой максимальной скоростью разрешается буксировка на жесткой сцепке в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q042_8c047556.gif",
+        "rule": "89.6",
+        "answers": [
+            {
+                "text": "20 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/43-5.htm",
+        "question": "С какой максимальной скоростью разрешается движение в населенном пункте в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q043_81eaadc0.gif",
+        "rule": "89.6,90",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "80 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/44-5.htm",
+        "question": "С какой максимальной скоростью разрешается движение в населённом пункте в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q044_a219305e.gif",
+        "rule": "88,90",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "80 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/45-5.htm",
+        "question": "С какой максимальной скоростью разрешается движение легковому автомобилю с прицепом в показанной ситуации вне населенного пункта, если максимальная скорость движения прицепа, определенная его технической характеристикой, составляет 100 км/ч?",
+        "image": "/theme-images/ГЛАВА_11_q045_d4b13042.gif",
+        "rule": "89.3,90",
+        "answers": [
+            {
+                "text": "70 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "100 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/46-5.htm",
+        "question": "Каким из перечисленных технических средств организации дорожного движения должны обозначаться участки дорог, где условия обеспечивают безопасность движения с более высокими скоростями, по сравнению с указанными в соответствующих пунктах Правил?",
+        "image": null,
+        "rule": "90",
+        "answers": [
+            {
+                "text": "Транспарантом, устанавливаемым при выезде на такой участок.",
+                "is_correct": false
+            },
+            {
+                "text": "Надписью на проезжей части дороги.",
+                "is_correct": false
+            },
+            {
+                "text": "Вертикальной дорожной разметкой.",
+                "is_correct": false
+            },
+            {
+                "text": "Световым табло.",
+                "is_correct": false
+            },
+            {
+                "text": "Дорожными знаками \"3.24.1, 3.24.2 Ограничение максимальной скорости\".",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/47-4.htm",
+        "question": "Разрешено ли буксировать прицеп со скоростью, указанной на дорожном знаке?",
+        "image": "/theme-images/ГЛАВА_11_q047_b40d353a.gif",
+        "rule": "90,91",
+        "answers": [
+            {
+                "text": "Разрешено, но только если она не превышает максимальную скорость, установленную технической характеристикой прицепа.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешено только на автомагистралях.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещено.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только вне населенных пунктов.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/48-4.htm",
+        "question": "Разрешается ли превышать максимальную скорость, определенную технической характеристикой транспортного средства?",
+        "image": null,
+        "rule": "91.1",
+        "answers": [
+            {
+                "text": "Разрешается только на участках, где условия обеспечивают безопасность движения с более высокими скоростями, если там установлены соответствующие дорожные знаки.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещается.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/49-4.htm",
+        "question": "Разрешено ли водителю грузового автомобиля с технически допустимой общей массой 3,4 тонны приступить к обгону автобуса, движущегося со скоростью 90 км/ч в показанной ситуации?",
+        "image": "/theme-images/ГЛАВА_11_q049_b0273f38.gif",
+        "rule": "89.1",
+        "answers": [
+            {
+                "text": "Разрешено.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешено только при условии, что встречная полоса свободна и своими действиями он не создаст угрозу безопасности дорожного движения.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещено.",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/50-4.htm",
+        "question": "Разрешается ли превышать скорость движения, указанную на опознавательном знаке \"Ограничение скорости\", установленном на транспортном средстве в соответствии с Правилами?",
+        "image": null,
+        "rule": "91.3",
+        "answers": [
+            {
+                "text": "Разрешается в обоих перечисленных случаях.",
+                "is_correct": false
+            },
+            {
+                "text": "Запрещается во всех случаях.",
+                "is_correct": true
+            },
+            {
+                "text": "Разрешается при обгоне одиночного транспортного средства, движущегося менее 30 км/ч при условии обеспечения безопасности дорожного движения.",
+                "is_correct": false
+            },
+            {
+                "text": "Разрешается на участках дорог, где с учетом дорожных условий и обеспечения безопасности дорожного движения разрешенная Правилами скорость повышена применением дорожных знаков \"Ограничение максимальной скорости\".",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/51-4.htm",
+        "question": "С какой максимальной скоростью разрешается движение легковому автомобилю в показанной обстановке?",
+        "image": "/theme-images/ГЛАВА_11_q051_fefdf8e9.gif",
+        "rule": "91.3",
+        "answers": [
+            {
+                "text": "60 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "100 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "70 км/ч.",
+                "is_correct": true
+            },
+            {
+                "text": "90 км/ч.",
+                "is_correct": false
+            },
+            {
+                "text": "50 км/ч.",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "url": "https://pdd.auto-cargo.com/13test/52-4.htm",
+        "question": "В каком случае водитель транспортного средства не нарушит требования Правил?",
+        "image": null,
+        "rule": "91",
+        "answers": [
+            {
+                "text": "Двигаясь с малой скоростью из-за технической неисправности.",
+                "is_correct": true
+            },
+            {
+                "text": "Превышая скорость движения, указанную на опознавательном знаке \"Ограничение скорости\".",
+                "is_correct": false
+            },
+            {
+                "text": "Превышая максимальную скорость, определенную технической характеристикой транспортного средства, но меньшей, чем на знаке \"Ограничение максимальной скорости\".",
+                "is_correct": false
+            },
+            {
+                "text": "Не нарушит во всех перечисленных случаях.",
+                "is_correct": false
+            }
+        ]
+    }
+]

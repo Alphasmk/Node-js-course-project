@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: pdd_postgres
+    environment:
+      POSTGRES_DB: pdd_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - pdd-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: pdd_backend
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "3001:3000"
+    environment:
+      NODE_ENV: production
+      QUESTION_IMAGES_DIR: /app/theme-images
+    volumes:
+      - ./frontend/public/theme-images:/app/theme-images
+    restart: unless-stopped
+    networks:
+      - pdd-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: pdd_frontend
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+    environment:
+      REACT_APP_USE_NGINX: "true"
+    volumes:
+      - ./frontend/public/theme-images:/usr/share/nginx/html/theme-images
+    restart: unless-stopped
+    networks:
+      - pdd-network
+
+volumes:
+  postgres_data:
+
+networks:
+  pdd-network:
+    driver: bridge
