@@ -36,6 +36,7 @@ function AdminQuestionForm() {
   const [sections, setSections] = useState([]);
   const [tickets, setTickets] = useState([]);
   const [selectedFile, setSelectedFile] = useState(null);
+  const [imagePreview, setImagePreview] = useState(null);
   const [questionsPerTicket, setQuestionsPerTicket] = useState(10);
   const [alert, setAlert] = useState(null);
   const [formValues, setFormValues] = useState(INITIAL_FORM_VALUES);
@@ -137,6 +138,16 @@ function AdminQuestionForm() {
   const handleFileChange = (event) => {
     const file = event.target.files && event.target.files[0] ? event.target.files[0] : null;
     setSelectedFile(file);
+    
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setImagePreview(reader.result);
+      };
+      reader.readAsDataURL(file);
+    } else {
+      setImagePreview(null);
+    }
   };
 
   const handleSubmit = async (event) => {
@@ -199,6 +210,7 @@ function AdminQuestionForm() {
       setAlert({ type: 'success', message: 'Вопрос успешно добавлен' });
       setFormValues(INITIAL_FORM_VALUES);
       setSelectedFile(null);
+      setImagePreview(null);
     } catch (error) {
       setAlert({
         type: 'error',
@@ -280,9 +292,25 @@ function AdminQuestionForm() {
                   />
                 </Button>
                 {selectedFile && (
-                  <Typography variant="body2" sx={{ mt: 1 }}>
-                      disabled={formValues.answers.length >= 6}
-                  </Typography>
+                  <Box sx={{ mt: 2 }}>
+                    <Typography variant="body2" sx={{ mb: 1 }}>
+                      Файл выбран: {selectedFile.name}
+                    </Typography>
+                    {imagePreview && (
+                      <Box
+                        component="img"
+                        src={imagePreview}
+                        alt="Предпросмотр"
+                        sx={{
+                          maxWidth: '200px',
+                          maxHeight: '200px',
+                          border: '1px solid #ccc',
+                          borderRadius: '4px',
+                          padding: '4px'
+                        }}
+                      />
+                    )}
+                  </Box>
                 )}
               </Box>
 

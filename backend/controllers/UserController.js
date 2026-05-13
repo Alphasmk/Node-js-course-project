@@ -4,7 +4,7 @@ const { Op } = require('sequelize');
 const { User, Role, TicketAttempt, Ticket, TicketMistake, Question, Answer, ExamAttempt, ExamVariant } = require('../models');
 const { sequelize } = require('../config/db');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'pdd-secret-key-change-in-production';
+const JWT_SECRET = process.env.JWT_SECRET;
 const QUESTIONS_PER_TICKET = 10;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

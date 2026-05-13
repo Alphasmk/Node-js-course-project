@@ -3,7 +3,7 @@ version: '3.8'
 services:
   postgres:
     image: postgres:15-alpine
-    container_name: pdd_postgres
+    container_name: database
     environment:
       POSTGRES_DB: pdd_db
       POSTGRES_USER: postgres
@@ -24,7 +24,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: pdd_backend
+    container_name: server
     depends_on:
       postgres:
         condition: service_healthy
@@ -32,7 +32,7 @@ services:
       - "3001:3000"
     environment:
       NODE_ENV: production
-      QUESTION_IMAGES_DIR: /app/theme-images
+      JWT_SECRET: jINDdA0Zv3jar7xCTwUWzlMpxiHnj2zhRJC5ZBV8FX09s
     volumes:
       - ./frontend/public/theme-images:/app/theme-images
     restart: unless-stopped
@@ -43,15 +43,16 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: pdd_frontend
+    container_name: nginx
     depends_on:
       - backend
     ports:
-      - "80:80"
+      - "443:443"
     environment:
       REACT_APP_USE_NGINX: "true"
     volumes:
       - ./frontend/public/theme-images:/usr/share/nginx/html/theme-images
+      - ./certs:/etc/nginx/certs:ro
     restart: unless-stopped
     networks:
       - pdd-network

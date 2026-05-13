@@ -2,9 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
 
-const uploadRoot = process.env.QUESTION_IMAGES_DIR
-    ? path.resolve(process.env.QUESTION_IMAGES_DIR)
-    : path.resolve(__dirname, '..', '..', 'frontend', 'public', 'theme-images');
+const uploadRoot = '/app/theme-images';
 
 if (!fs.existsSync(uploadRoot)) {
     fs.mkdirSync(uploadRoot, { recursive: true });

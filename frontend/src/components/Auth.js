@@ -67,7 +67,7 @@ function Auth({ onLogin }) {
         }
 
         setMessageType('success');
-        setMessage('Успешно вошли в систему!');
+        setMessage('Успешный вход в систему!');
         setTimeout(() => {
           onLogin(response.data.user);
         }, 500);
@@ -79,7 +79,7 @@ function Auth({ onLogin }) {
         });
 
         setMessageType('success');
-        setMessage('Успешно зарегистрировались! Пожалуйста, войдите.');
+        setMessage('Успешная регистрация! Пожалуйста, войдите.');
         setFormData({ username: '', email: '', password: '', confirmPassword: '' });
         setIsLogin(true);
       }

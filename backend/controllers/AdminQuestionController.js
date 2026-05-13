@@ -35,9 +35,7 @@ const compareSectionTitles = (left, right) => {
 };
 
 const getQuestionImagesRoot = () => {
-    return process.env.QUESTION_IMAGES_DIR
-        ? path.resolve(process.env.QUESTION_IMAGES_DIR)
-        : path.resolve(__dirname, '..', '..', 'frontend', 'public', 'theme-images');
+    return '/app/theme-images';
 };
 
 class AdminQuestionController {

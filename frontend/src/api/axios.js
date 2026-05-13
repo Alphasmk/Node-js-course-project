@@ -1,24 +1,15 @@
 import axios from 'axios';
 
 const getAPIURL = () => {
-  
+  if (process.env.REACT_APP_API_URL) return process.env.REACT_APP_API_URL;
   if (typeof window !== 'undefined') {
-    const protocol = window.location.protocol;
-    const hostname = window.location.hostname;
-
     const isDevelopment = process.env.NODE_ENV === 'development';
-    const isNginx = process.env.REACT_APP_USE_NGINX === 'true';
-    
-    if (isNginx) {
-      
-      return '';
+    if (isDevelopment) {
+      return 'http://localhost:3001';
     }
-    
-    const port = isDevelopment ? '3000' : '3001';
-    return `${protocol}//${hostname}:${port}`;
+    return '';
   }
-
-  return process.env.REACT_APP_API_URL || 'http://localhost:3000';
+  return 'http://localhost:3001';
 };
 
 const API_URL = getAPIURL();
@@ -44,18 +35,18 @@ axiosInstance.interceptors.request.use(
     return config;
   },
   error => {
-    console.error('❌ Request Error:', error);
+    console.error('Request Error:', error);
     return Promise.reject(error);
   }
 );
 
 axiosInstance.interceptors.response.use(
   response => {
-    console.log('📥 API Response:', response.status, response.data);
+    console.log('Response:', response.status, response.data);
     return response;
   },
   error => {
-    console.error('❌ Response Error:', error.response?.status, error.response?.data);
+    console.error('Response Error:', error.response?.status, error.response?.data);
     return Promise.reject(error);
   }
 );

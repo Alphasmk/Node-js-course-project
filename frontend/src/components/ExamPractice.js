@@ -28,6 +28,7 @@ function ExamPractice({ isAuthenticated = false, onRequireAuth }) {
   const [questions, setQuestions] = useState([]);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [finalizedQuestionIds, setFinalizedQuestionIds] = useState([]);
   const [result, setResult] = useState(null);
   const [timeLeftSeconds, setTimeLeftSeconds] = useState(null);
   const [alert, setAlert] = useState(null);
@@ -83,6 +84,7 @@ function ExamPractice({ isAuthenticated = false, onRequireAuth }) {
     setTimeLeftSeconds(null);
     timedOutSubmitGuardRef.current = false;
     mistakeLimitSubmitGuardRef.current = false;
+    setFinalizedQuestionIds([]);
   };
 
   const loadExamInfo = async () => {
@@ -232,6 +234,8 @@ function ExamPractice({ isAuthenticated = false, onRequireAuth }) {
     }
 
     const wrongAnsweredCount = questions.reduce((count, question) => {
+      if (!finalizedQuestionIds.includes(question.id)) return count;
+
       const selectedAnswerId = selectedAnswers[question.id];
       if (!selectedAnswerId) {
         return count;
@@ -253,7 +257,7 @@ function ExamPractice({ isAuthenticated = false, onRequireAuth }) {
       mistakeLimitSubmitGuardRef.current = true;
       submitExam();
     }
-  }, [selectedAnswers, questions, attemptMeta?.max_mistakes_allowed, isAttemptActive, submittingExam, submitExam]);
+  }, [selectedAnswers, questions, attemptMeta?.max_mistakes_allowed, isAttemptActive, submittingExam, submitExam, finalizedQuestionIds]);
 
   const progressValue = questions.length > 0
     ? ((currentQuestionIndex + 1) / questions.length) * 100
@@ -394,7 +398,10 @@ function ExamPractice({ isAuthenticated = false, onRequireAuth }) {
                 {currentQuestionIndex < questions.length - 1 ? (
                   <Button
                     variant="contained"
-                    onClick={() => setCurrentQuestionIndex((prev) => Math.min(prev + 1, questions.length - 1))}
+                    onClick={() => {
+                      setFinalizedQuestionIds((prev) => (prev.includes(currentQuestion.id) ? prev : [...prev, currentQuestion.id]));
+                      setCurrentQuestionIndex((prev) => Math.min(prev + 1, questions.length - 1));
+                    }}
                   >
                     Далее
                   </Button>

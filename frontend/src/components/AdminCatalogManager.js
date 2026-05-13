@@ -86,6 +86,7 @@ function AdminCatalogManager() {
     maxMistakesAllowed: 2
   });
   const [questionEditData, setQuestionEditData] = useState(INITIAL_QUESTION_EDIT);
+  const [questionEditImagePreview, setQuestionEditImagePreview] = useState(null);
 
   const [ticketEditorSectionId, setTicketEditorSectionId] = useState('');
   const [selectedTicketId, setSelectedTicketId] = useState('');
@@ -611,11 +612,27 @@ function AdminCatalogManager() {
       removeImage: false
     });
 
+    setQuestionEditImagePreview(null);
     setQuestionModalOpen(true);
   };
 
   const updateQuestionField = (field, value) => {
-    setQuestionEditData((prev) => ({ ...prev, [field]: value }));
+    setQuestionEditData((prev) => {
+      if (field === 'sectionId') {
+        const prevSection = prev.sectionId;
+        const prevTicket = prev.ticketId;
+        if (prevTicket && String(prevTicket).trim() && String(prevSection) !== String(value)) {
+          const approved = window.confirm('При смене темы вопрос будет откреплён от текущего билета. Продолжить?');
+          if (!approved) {
+            return prev;
+          }
+        }
+
+        return { ...prev, sectionId: value, ticketId: '' };
+      }
+
+      return { ...prev, [field]: value };
+    });
   };
 
   const updateQuestionAnswer = (index, value) => {
@@ -671,6 +688,16 @@ function AdminCatalogManager() {
       imageFile: file,
       removeImage: file ? false : prev.removeImage
     }));
+
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setQuestionEditImagePreview(reader.result);
+      };
+      reader.readAsDataURL(file);
+    } else {
+      setQuestionEditImagePreview(null);
+    }
   };
 
   const handleRemoveEditQuestionImage = () => {
@@ -680,6 +707,7 @@ function AdminCatalogManager() {
       removeImage: true,
       imageUrl: ''
     }));
+    setQuestionEditImagePreview(null);
   };
 
   const handleCancelRemoveEditQuestionImage = () => {
@@ -728,9 +756,8 @@ function AdminCatalogManager() {
       formData.append('answers', JSON.stringify(preparedAnswers));
       formData.append('correctAnswer', String(questionEditData.correctAnswer));
 
-      if (questionEditData.ticketId) {
-        formData.append('ticketId', String(questionEditData.ticketId));
-      }
+      // Always send ticketId field: empty string means "detach from ticket"
+      formData.append('ticketId', String(questionEditData.ticketId || ''));
 
       if (questionEditData.ruleReference && questionEditData.ruleReference.trim()) {
         formData.append('ruleReference', questionEditData.ruleReference.trim());
@@ -967,7 +994,7 @@ function AdminCatalogManager() {
       <Tabs value={tabKey} onChange={(_, value) => setTabKey(value)} variant="scrollable" scrollButtons="auto">
         <Tab value="create" label="Создание" />
         <Tab value="structure" label="Темы и билеты" />
-        <Tab value="content" label="Содержимое билетов" />
+        <Tab value="content" label="Содержимое билетов и вопросов" />
       </Tabs>
 
       {tabKey === 'create' && (
@@ -1170,7 +1197,7 @@ function AdminCatalogManager() {
       {tabKey === 'content' && (
         <Card>
           <CardContent>
-            <Typography variant="h6" gutterBottom>Редактирование содержимого билета</Typography>
+            <Typography variant="h6" gutterBottom>Редактирование содержимого</Typography>
             <Box
               sx={{
                 display: 'grid',
@@ -1180,10 +1207,10 @@ function AdminCatalogManager() {
               }}
             >
               <FormControl fullWidth>
-                <InputLabel id="ticket-filter-section">Фильтр по теме</InputLabel>
+                <InputLabel id="ticket-filter-section">Тема</InputLabel>
                 <Select
                   labelId="ticket-filter-section"
-                  label="Фильтр по теме"
+                  label="Тема"
                   value={ticketEditorSectionId}
                   onChange={(event) => setTicketEditorSectionId(event.target.value)}
                 >
@@ -1399,7 +1426,7 @@ function AdminCatalogManager() {
 
               {!ticketEditorSectionId ? (
                 <Typography variant="body2" color="text.secondary">
-                  Выберите тему, чтобы увидеть все вопросы и удалить их из базы.
+                  Выберите тему, чтобы увидеть все вопросы.
                 </Typography>
               ) : sectionQuestionsLoading ? (
                 <Typography variant="body2" color="text.secondary">Загрузка вопросов темы...</Typography>
@@ -1538,7 +1565,7 @@ function AdminCatalogManager() {
         </DialogActions>
       </Dialog>
 
-      <Dialog open={isQuestionModalOpen} onClose={() => setQuestionModalOpen(false)} fullWidth maxWidth="md">
+      <Dialog open={isQuestionModalOpen} onClose={() => { setQuestionModalOpen(false); setQuestionEditImagePreview(null); }} fullWidth maxWidth="md">
         <DialogTitle>Редактировать вопрос</DialogTitle>
         <DialogContent>
           <Stack spacing={2} sx={{ mt: 1 }}>
@@ -1621,9 +1648,19 @@ function AdminCatalogManager() {
               </Stack>
 
               {questionEditData.imageFile && (
-                <Typography variant="body2" sx={{ mt: 1 }}>
-                  Выбран файл: {questionEditData.imageFile.name}
-                </Typography>
+                <Box sx={{ mt: 2 }}>
+                  <Typography variant="body2" sx={{ mb: 1 }}>
+                    Новый файл: {questionEditData.imageFile.name}
+                  </Typography>
+                  {questionEditImagePreview && (
+                    <Box
+                      component="img"
+                      src={questionEditImagePreview}
+                      alt="Предпросмотр нового изображения"
+                      sx={{ maxWidth: '200px', maxHeight: '200px', border: '1px solid #ccc', borderRadius: '4px', padding: '4px' }}
+                    />
+                  )}
+                </Box>
               )}
 
               {questionEditData.removeImage && !questionEditData.imageFile && (
@@ -1710,7 +1747,7 @@ function AdminCatalogManager() {
         </DialogContent>
 
         <DialogActions>
-          <Button onClick={() => setQuestionModalOpen(false)}>Отмена</Button>
+          <Button onClick={() => { setQuestionModalOpen(false); setQuestionEditImagePreview(null); }}>Отмена</Button>
           <Button
             color="error"
             startIcon={<DeleteIcon />}

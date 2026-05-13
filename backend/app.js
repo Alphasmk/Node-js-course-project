@@ -8,7 +8,7 @@ const catalogRoutes = require('./routes/catalog');
 const examRoutes = require('./routes/exam');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 
 app.use((req, res, next) => {
     console.log(`${req.method} ${req.path}`);
@@ -35,50 +35,6 @@ app.use('/api/admin/questions', adminQuestionRoutes);
 app.use('/api/admin/exams', adminExamRoutes);
 app.use('/api/catalog', catalogRoutes);
 app.use('/api/exam', examRoutes);
-
-app.get('/', (req, res) => {
-    res.json({
-        message: 'API сервер для ПДД тестирования',
-        version: '1.0.0',
-        endpoints: {
-            users: {
-                register: 'POST /api/users/register',
-                login: 'POST /api/users/login',
-                profile: 'GET /api/users/profile',
-                getAll: 'GET /api/users',
-                getById: 'GET /api/users/:id',
-                update: 'PUT /api/users/:id',
-                attempts: 'GET /api/users/:id/attempts',
-                stats: 'GET /api/users/:id/stats'
-            },
-            admin: {
-                createSection: 'POST /api/admin/questions/sections',
-                createTicket: 'POST /api/admin/questions/tickets',
-                updateSection: 'PUT /api/admin/questions/sections/:sectionId',
-                updateTicket: 'PUT /api/admin/questions/tickets/:ticketId',
-                questionMeta: 'GET /api/admin/questions/meta',
-                getTicketQuestions: 'GET /api/admin/questions/tickets/:ticketId/questions',
-                createQuestion: 'POST /api/admin/questions',
-                updateQuestion: 'PUT /api/admin/questions/:questionId',
-                examConfig: 'GET /api/admin/exams/config',
-                updateExamConfig: 'PUT /api/admin/exams/config',
-                examVariants: 'GET /api/admin/exams/variants'
-            },
-            catalog: {
-                sections: 'GET /api/catalog/sections',
-                sectionQuestions: 'GET /api/catalog/sections/:sectionId/questions',
-                sectionTickets: 'GET /api/catalog/sections/:sectionId/tickets',
-                allTickets: 'GET /api/catalog/tickets'
-            },
-            exam: {
-                info: 'GET /api/exam/info',
-                start: 'POST /api/exam/start',
-                finish: 'POST /api/exam/:attemptId/finish',
-                attemptDetails: 'GET /api/exam/attempts/:attemptId'
-            }
-        }
-    });
-});
 
 app.use((req, res) => {
     res.status(404).json({
@@ -114,7 +70,6 @@ async function startServer() {
         await initDb();
         app.listen(PORT, () => {
             console.log(`Сервер запущен на http://localhost:${PORT}`);
-            console.log(`Документация доступна на GET /`);
         });
     } catch (error) {
         console.error('Ошибка при запуске сервера:', error);
